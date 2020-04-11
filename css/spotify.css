@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.header_wrapper
+{
+width: 100%;
+ min-width:1200px;
+ background-color: transparent;
+ position: fixed;
+ background: rgb(41, 40, 40);
+ height: 75px;
+ 
+}
+.header
+{
+    width: 30%;
+  
+display: flex;
+float: left;
+ margin:0px auto;
+ padding:0px;
+ margin-left: 10%;
+
+}
+
+.header #logo img {
+   
+ margin-top: 10px;
+color: white;
+   
+}
+
+.header .sitename
+{
+   
+ margin-top:15px;
+ width: 30%;
+
+}
+
+.header .sitename a
+{
+    font-family: 'Didact Gothic', sans-serif;
+    width: 38%;
+ display: flex;
+ justify-content: left;  
+ color:white;
+ text-decoration:none;
+ font-size:30px;
+ font-weight:900;
+ margin-left: 5%;
+}
+
+nav ul{
+  
+float: right;
+    width: 38%;
+    display: flex; 
+
+ margin-right: 5%;
+}
+
+nav ul li{
+    font-size: 16px;
+    display: flex;
+    color: white;
+ 
+
+     }
+     nav ul li a{
+         color: white;
+         font-family: 'Didact Gothic', sans-serif;
+         text-decoration: none;
+         margin: 25px
+     }
+
+     div .verticalline{
+        width: 0.5px; 
+        background-color: white; 
+        height: 18px; 
+        border: 0.5 px solid white;
+      display: flex;
+      justify-content: center;
+      margin-top: 28px;
+      
+
+
+     }
+
+     .wrapper{
+        margin:0 auto;
+        padding:0px;
+        text-align:center;
+        width:100%;
+     display: flex;
+     background-color: whitesmoke;
+     height: 220px
+     
+     }
+
+     .wrapper .wrap{
+         text-align: center;
+         width: 50%;
+        margin-left: 7%;
+        margin-top: 45px;
+
+
+     }
+
+     .wrapper .wrap .covid{
+        margin-top: 70px;
+         text-align: center;
+         width: 40%;
+         height: 20px;
+         color: rgb(52, 52, 240);
+         font-size: x-large;
+         margin-left: 7%;
+         display: flex;
+         font-family: 'Didact Gothic', sans-serif;
+        
+     }
+
+     .wrapper .wrap .covid2{
+      
+         text-align: center;
+         width: 100%;
+         height: 100px;
+       margin-left: 7%;
+         display: flex;
+         margin-top: 20px;
+         font-family: 'Didact Gothic', sans-serif;
+        
+     }
+
+     
